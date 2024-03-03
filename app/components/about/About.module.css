@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 504px;
+  overflow: hidden;
+}
+
+.image {
+  position: relative;
+  top: -90px;
+  left: clamp(0rem, -4.938rem + 24.691vw, 6.25rem);
+}
+
+.aboutTextBox {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: clamp(6.875rem, -1.477rem + 41.758vw, 18.75rem);
+}
+
+.aboutText {
+  width: 65vw;
+  max-width: 500px;
+  padding: 30px;
+}

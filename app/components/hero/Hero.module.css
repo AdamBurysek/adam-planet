@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoText {
+  width: 80%;
+  height: auto;
+  max-width: 760px;
+}
+
+.logoParagraph {
+  margin-bottom: 100px;
+  padding-top: 10px;
+  font-size: clamp(0.7rem, 0.071rem + 3.143vw, 1.25rem);
+  padding-left: clamp(0rem, -18.168rem + 90.84vw, 37.188rem);
+}
+
+.downArrow {
+  position: absolute;
+  bottom: 30px;
+  cursor: pointer;
+  transition: 1.3s;
+  animation: showArrow 8s forwards;
+}
+
+.downArrow:hover {
+  scale: 1.3;
+}
+
+@keyframes showArrow {
+  0%,
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

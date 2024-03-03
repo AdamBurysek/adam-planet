@@ -1,0 +1,44 @@
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  right: 18px;
+  top: 15px;
+}
+
+.hamburger .line {
+  width: 32px;
+  height: 4px;
+  background-color: var(--color-white);
+  display: block;
+  margin: 7px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger.isActive {
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.6s;
+  transform: rotate(45deg);
+}
+
+.hamburger.isActive .line:nth-child(2) {
+  width: 0px;
+}
+
+.hamburger.isActive .line:nth-child(1),
+.hamburger.isActive .line:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.hamburger.isActive .line:nth-child(1) {
+  transform: translateY(12px);
+}
+
+.hamburger.isActive .line:nth-child(3) {
+  transform: translateY(-10px) rotate(90deg);
+}
+
+@media screen and (min-width: 880px) {
+  .hamburger {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.next
+.vercel
+.vscode
+node_modules
+out
+dist
+.eslintrc.js
+*.yml
+*.yaml
