@@ -12,6 +12,7 @@ type Props = {
 
 const MusicCard = ({ name, image, link, hover }: Props) => (
   <a className={styles.musicCard} href={link} rel="noreferrer" target="_blank">
+    <p className={styles.musicCardName}>{name}</p>
     <p className={styles.musicCardText}>{hover}</p>
     <Image
       alt={name}

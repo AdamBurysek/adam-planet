@@ -1,12 +1,12 @@
 export const myMusic = [
   {
-    name: 'Avaritia',
+    name: 'deadmau5 - Avaritia (Adam Planet Bootleg)',
     image: '/music-section_img/deadmau5-while.jpg',
     link: 'https://on.soundcloud.com/g1aEo',
     hover: 'listen',
   },
   {
-    name: 'Better Now',
+    name: 'Hybrid Minds - Better Now feat. Lily Denning (Adam Planet Bootleg)',
     image: '/music-section_img/BetterNow.jpg',
     link: 'https://on.soundcloud.com/yyZqJ',
     hover: 'listen',
@@ -52,7 +52,7 @@ export const shows = [
     hover: 'listen',
   },
   {
-    name: 'Dom Whiting',
+    name: 'Dom Whiting on the Bike',
     image: '/music-section_img/dom_whiting.jpg',
     link: 'https://youtu.be/IoULsBN9xH4?t=3873',
     hover: 'watch',
