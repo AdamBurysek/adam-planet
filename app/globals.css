@@ -45,7 +45,7 @@ h3 {
 h2,
 h3 {
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 h2 {
@@ -54,6 +54,7 @@ h2 {
 
 h3 {
   font-size: 1.7rem;
+  padding: 1rem 0;
 }
 
 button {

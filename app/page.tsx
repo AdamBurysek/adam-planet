@@ -1,4 +1,5 @@
 import About from './components/about/About';
+import Gallery from './components/gallery/Gallery';
 import Hero from './components/hero/Hero';
 import Music from './components/music/Music';
 import Navbar from './components/navbar/Navbar';
@@ -13,6 +14,7 @@ const App = () => (
       <Hero />
       <About />
       <Music />
+      <Gallery />
       <div style={{ height: 5000 }} />
       <section id="contact">
         <div style={{ height: 5000 }} />
