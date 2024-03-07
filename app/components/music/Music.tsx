@@ -20,7 +20,7 @@ const Music = () => (
         ))}
       </div>
       <iframe
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         className={styles.player}
         loading="lazy"
         src="https://open.spotify.com/embed/playlist/0m8kbDywszaeyAOdlf9S30?utm_source=generator"

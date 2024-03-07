@@ -60,6 +60,7 @@ const Gallery = () => {
                     alt="Image with Adam"
                     className={styles.slideImage}
                     height={472}
+                    priority
                     quality={100}
                     src={slide.image}
                     width={928}
