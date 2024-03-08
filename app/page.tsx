@@ -1,5 +1,6 @@
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import Gallery from './components/gallery/Gallery';
 import Hero from './components/hero/Hero';
 import Music from './components/music/Music';
@@ -17,11 +18,8 @@ const App = () => (
       <Music />
       <Gallery />
       <Contact />
-      <div style={{ height: 5000 }} />
-      <section id="contact">
-        <div style={{ height: 5000 }} />
-      </section>
     </main>
+    <Footer />
   </>
 );
 

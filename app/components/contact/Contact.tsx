@@ -79,7 +79,10 @@ const Contact = () => {
     <section id="contact">
       <h2>Contact</h2>
       <div className={styles.topContainer}>
-        <p>If you have any questions, feel free to contact me.</p>
+        <p className={styles.text}>
+          If there&apos;s anything on your mind, whether it&apos;s a question,
+          collaboration idea, or just a friendly chat, feel free to contact me.
+        </p>
         <a className={styles.mail} href="mailto:adam.planet@gmail.com">
           adam.planet@gmail.com
         </a>

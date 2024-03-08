@@ -68,8 +68,8 @@ const Planet = () => {
 
   useLenis(({ scroll }) => {
     const { innerHeight } = window;
-    const lightValue = Math.min(2 + (scroll / innerHeight) * 2, 12);
-    const positionValue = Math.min(2.5 + (scroll / innerHeight) * 200, 1000);
+    const lightValue = Math.min(2 + (scroll / innerHeight) * 4, 12);
+    const positionValue = Math.min(2.5 + (scroll / innerHeight) * 20, 1000);
 
     const calculatedMotion: PlanetMotion = {
       light: lightValue,

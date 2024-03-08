@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  background-color: var(--color-black);
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0 2rem 0;
+}
+
+.logo {
+  width: clamp(1.875rem, 0.404rem + 7.353vw, 5rem);
+  height: auto;
+  margin: 10px;
+}
+
+.logoText {
+  height: clamp(1.875rem, 0.993rem + 4.412vw, 3.75rem);
+  width: auto;
+  margin: 10px;
+}
+
+.text {
+  text-align: center;
+  margin: 1rem;
+}
+
+.adamLink {
+  text-decoration: none;
+}
+
+.adamLink:hover {
+  color: #ff4545;
+}
