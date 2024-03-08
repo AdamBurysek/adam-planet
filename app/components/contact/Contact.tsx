@@ -25,8 +25,6 @@ const Contact = () => {
   const [errors, setErrors] = useState<Errors>(initialErrorsValues);
   const [pending, setPending] = useState<boolean>(false);
 
-  const formspreeApi = process.env.NEXT_PUBLIC_FORMSPREE_API;
-
   const handleFocus = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
@@ -51,6 +49,7 @@ const Contact = () => {
     setErrors(newErrors);
     const hasErrors = Object.values(newErrors).some(Boolean);
 
+    const formspreeApi = process.env.NEXT_PUBLIC_FORMSPREE_API;
     if (!hasErrors && formspreeApi) {
       setPending(true);
       fetch(formspreeApi, {
