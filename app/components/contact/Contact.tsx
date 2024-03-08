@@ -73,6 +73,9 @@ const Contact = () => {
           console.error('There is a problem with fetch operation:', error); // eslint-disable-line no-console
         });
     }
+    if (!formspreeApi) {
+      console.error('Missing information about form endpoint'); // eslint-disable-line no-console
+    }
   };
 
   return (
