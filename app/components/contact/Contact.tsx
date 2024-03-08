@@ -19,13 +19,13 @@ const initialErrorsValues: Errors = {
   subject: false,
 };
 
-const formspreeApi = process.env.FORMSPREEE_API_KEY;
-
 const Contact = () => {
   const [isFocused, setIsFocused] = useState<string>('');
   const [formValues, setFormValues] = useState<FormValues>(initialFormValues);
   const [errors, setErrors] = useState<Errors>(initialErrorsValues);
   const [pending, setPending] = useState<boolean>(false);
+
+  const formspreeApi = process.env.FORMSPREEE_API_KEY;
 
   const handleFocus = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
