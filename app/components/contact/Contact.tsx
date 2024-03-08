@@ -19,7 +19,7 @@ const initialErrorsValues: Errors = {
   subject: false,
 };
 
-const formspreeApi = process.env.NEXT_PUBLIC_FORMSPREE_API;
+const formspreeApi = process.env.FORMSPREEE_API_KEY;
 
 const Contact = () => {
   const [isFocused, setIsFocused] = useState<string>('');
