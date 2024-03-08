@@ -76,6 +76,7 @@
   background-color: var(--color-navbar);
   backdrop-filter: blur(10px);
   border: none;
+  color: var(--color-white);
   border-radius: 5px;
   margin-bottom: 1.5rem;
   padding: 1rem;
