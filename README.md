@@ -4,11 +4,11 @@ This application is powered by Next.js, utilizing the capabilities of Three.js f
 
 ## Features
 
-**Next.js:** Provides a robust framework for building React applications with server-side rendering and other powerful features.
-**Three.js:** Enables the creation of stunning 3D animations and visualizations within the browser.
-**Lenis:** Enhances user experience with smooth scrolling functionality.
-**Swiper:** Facilitates the creation of interactive and responsive image galleries.
-**Framer Motion:** Utilized for implementing engaging animation effects throughout the application.
+- **Next.js:** Provides a robust framework for building React applications with server-side rendering and other powerful features.
+- **Three.js:** Enables the creation of stunning 3D animations and visualizations within the browser.
+- **Lenis:** Enhances user experience with smooth scrolling functionality.
+- **Swiper:** Facilitates the creation of interactive and responsive image galleries.
+- **Framer Motion:** Utilized for implementing engaging animation effects throughout the application.
 
 ## Installation
 
@@ -25,9 +25,9 @@ Once the development server is running, you can access the application by naviga
 
 ## TODO
 
-[ ] Rewrite the form using useForm hook
-[ ] Integrate an email service with the form
-[ ] Implement a cookie handler
+- [ ] Rewrite the form using useForm hook
+- [ ] Integrate an email service with the form
+- [ ] Implement a cookie handler
 
 ## License
 
