@@ -1,5 +1,34 @@
 ### Adam Planet Webpage
 
+This application is powered by Next.js, utilizing the capabilities of Three.js for 3D animation, Lenis for smooth scrolling, and Swiper for creating galleries. Additionally, animation effects are implemented using Framer Motion.
 
+## Features
 
-![68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6c696768745f6261636b67726f756e642e706e67](https://github.com/AdamBurysek/adam-planet/assets/114564710/4f10f41e-4623-4ff1-81e3-58b75d5cd4e3)
+**Next.js:** Provides a robust framework for building React applications with server-side rendering and other powerful features.
+**Three.js:** Enables the creation of stunning 3D animations and visualizations within the browser.
+**Lenis:** Enhances user experience with smooth scrolling functionality.
+**Swiper:** Facilitates the creation of interactive and responsive image galleries.
+**Framer Motion:** Utilized for implementing engaging animation effects throughout the application.
+
+## Installation
+
+To run this application locally, follow these steps:
+
+1. Clone the repository: **git clone [https://github.com/AdamBurysek/adam-planet]**
+2. Navigate to the project directory: **cd adam-planet**
+3. Install dependencies: **npm install**
+4. Start the development server: **npm run dev**
+
+## Usage
+
+Once the development server is running, you can access the application by navigating to **http://localhost:3000** in your web browser.
+
+## TODO
+
+[ ] Rewrite the form using useForm hook
+[ ] Integrate an email service with the form
+[ ] Implement a cookie handler
+
+## License
+
+This project is licensed under the MIT license. See the LICENSE file for details.
