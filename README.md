@@ -1,4 +1,4 @@
-### Adam Planet Webpage
+# Adam Planet Webpage
 
 This application is powered by Next.js, utilizing the capabilities of Three.js for 3D animation, Lenis for smooth scrolling, and Swiper for creating galleries. Additionally, animation effects are implemented using Framer Motion.
 
