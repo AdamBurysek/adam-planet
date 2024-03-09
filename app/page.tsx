@@ -1,3 +1,5 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
@@ -10,6 +12,7 @@ import './globals.css';
 
 const App = () => (
   <>
+    <SpeedInsights />
     <Navbar />
     <Planet />
     <main>
