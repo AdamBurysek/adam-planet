@@ -1,4 +1,5 @@
 export const images = [
+  { image: '/gallery_img/07.png' },
   { image: '/gallery_img/01.png' },
   { image: '/gallery_img/05.png' },
   { image: '/gallery_img/03.png' },
