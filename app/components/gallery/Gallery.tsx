@@ -29,13 +29,11 @@ const Gallery = () => {
   );
 
   const handlePrev = () => {
-    if (!swiperRef.current) return;
-    swiperRef.current.swiper.slidePrev();
+    swiperRef.current?.swiper.slidePrev();
   };
 
   const handleNext = () => {
-    if (!swiperRef.current) return;
-    swiperRef.current.swiper.slideNext();
+    swiperRef.current?.swiper.slideNext();
   };
 
   return (
