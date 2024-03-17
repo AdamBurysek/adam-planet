@@ -25,7 +25,7 @@ Once the development server is running, you can access the application by naviga
 
 ## TODO
 
-- [ ] Rewrite the form using useForm hook
+- [ ] Rewrite the form using React Hook Form
 - [ ] Integrate an email service with the form
 - [ ] Implement a cookie handler
 
