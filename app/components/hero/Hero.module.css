@@ -25,6 +25,7 @@
   position: absolute;
   bottom: 30px;
   cursor: pointer;
+  left: calc(50% - 16px);
   transition: 1.3s;
   animation: showArrow 8s forwards;
 }
