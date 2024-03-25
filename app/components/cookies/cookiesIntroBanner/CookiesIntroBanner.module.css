@@ -4,10 +4,25 @@
   height: 100%;
   top: 0;
   background-color: rgba(255, 255, 255, 0.5);
-  z-index: 999;
+  z-index: 992;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cookieButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  scale: 0.6;
+}
+
+.cookieButton:hover {
+  scale: 0.7;
+  transition: 0.5s;
 }
 
 .hide {
@@ -30,7 +45,15 @@
   padding: 1.5rem 0 2rem 0;
 }
 
-.boxContainer button {
+.showPolicyButton {
+  font-size: 20px;
+  color: rgb(0, 195, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.settingsButton,
+.allowButton {
   width: 188px;
   height: 32px;
   border-radius: 10px;
