@@ -9,6 +9,7 @@ This application is powered by Next.js, utilizing the capabilities of Three.js f
 - **Lenis:** Enhances user experience with smooth scrolling functionality.
 - **Swiper:** Facilitates the creation of interactive and responsive image galleries.
 - **Framer Motion:** Utilized for implementing engaging animation effects throughout the application.
+- **React-email + Resend:** Integrated email service.
 
 ## Installation
 
