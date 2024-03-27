@@ -26,7 +26,7 @@ Once the development server is running, you can access the application by naviga
 ## TODO
 
 - [ ] Rewrite the form
-- [ ] Integrate an email service with the form
+- [x] Integrate an email service with the form
 - [x] Implement a cookie handler - Done, but I remove it. There was some problems with Cookie Policy window and Lenis Scroll on desktop. Another solution will break simple page idea, so im not sure if i want cookies.
 
 ## License
