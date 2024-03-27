@@ -50,29 +50,42 @@ const Contact = () => {
     const hasErrors = Object.values(newErrors).some(Boolean);
 
     const formspreeApi = process.env.NEXT_PUBLIC_FORMSPREE_API;
-    if (!hasErrors && formspreeApi) {
+    const emailApi = process.env.NEXT_PUBLIC_EMAIL_API;
+
+    if (!hasErrors && formspreeApi && emailApi) {
       setPending(true);
-      fetch(formspreeApi, {
+
+      const requestBody = JSON.stringify({
+        formValues,
+      });
+
+      const requestOptions = {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          formValues,
-        }),
-      })
-        .then((response) => {
-          if (!response.ok) {
+        body: requestBody,
+      };
+
+      Promise.all([
+        fetch(emailApi, requestOptions),
+        fetch(formspreeApi, requestOptions),
+      ])
+        .then((responses) => {
+          const hasFailed = responses.some((response) => !response.ok);
+          if (hasFailed) {
             throw new Error('Something Failed');
           }
           setFormValues(initialFormValues);
-          setPending(false);
         })
         .catch((error) => {
           console.error('There is a problem with fetch operation:', error); // eslint-disable-line no-console
+        })
+        .finally(() => {
+          setPending(false);
         });
     }
-    if (!formspreeApi) {
+    if (!formspreeApi || !emailApi) {
       console.error('Missing information about form endpoint'); // eslint-disable-line no-console
     }
   };
