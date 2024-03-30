@@ -9,7 +9,7 @@ import styles from './Navbar.module.css';
 import { navLinks } from './navLinks';
 
 const Navbar = () => {
-  const [menuOpened, setMenuOpened] = useState<boolean>(false);
+  const [menuOpened, setMenuOpened] = useState(false);
   const lenis = useLenis(() => {});
 
   const handleHamburgerClick = () => {

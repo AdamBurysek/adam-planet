@@ -20,10 +20,10 @@ const initialErrorsValues: Errors = {
 };
 
 const Contact = () => {
-  const [isFocused, setIsFocused] = useState<string>('');
+  const [isFocused, setIsFocused] = useState('');
   const [formValues, setFormValues] = useState<FormValues>(initialFormValues);
   const [errors, setErrors] = useState<Errors>(initialErrorsValues);
-  const [pending, setPending] = useState<boolean>(false);
+  const [pending, setPending] = useState(false);
 
   const handleFocus = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
