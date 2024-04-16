@@ -30,7 +30,7 @@ const About = () => {
             className={styles.image}
             height={676}
             src="/adam-planet.jpg"
-            width={1064}
+            width={1200}
           />
         </motion.div>
         <div className={styles.aboutTextBox}>
