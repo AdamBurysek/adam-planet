@@ -24,12 +24,6 @@ To run this application locally, follow these steps:
 
 Once the development server is running, you can access the application by navigating to **http://localhost:3000** in your web browser.
 
-## TODO
-
-- [ ] Rewrite the form
-- [x] Integrate an email service with the form
-- [x] Implement a cookie handler - Done, but I remove it. There was some problems with Cookie Policy window and Lenis Scroll on desktop. Another solution will break simple page idea, so im not sure if i want cookies.
-
 ## License
 
 This project is licensed under the MIT license. See the LICENSE file for details.
