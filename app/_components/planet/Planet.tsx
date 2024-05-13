@@ -77,7 +77,6 @@ const Planet = () => {
     };
 
     setPlanetMotion(calculatedMotion);
-    // console.log(calculatedMotion);
   });
 
   return (

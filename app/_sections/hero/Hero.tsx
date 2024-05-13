@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { MotionParagraph } from '../motion/MotionParagraph';
+import { MotionParagraph } from '../../_components/motion/MotionParagraph';
 
 import DownArrow from './DownArrow';
 import styles from './Hero.module.css';
