@@ -28,13 +28,9 @@ const FormEmail = ({ name }: { name: string }) => (
           <Text>Adam Planet</Text>
           <Img
             alt="Adam Planet Logo"
+            className="relative mt-10 mb-10"
             height="80"
             src="https://res.cloudinary.com/dkc6fl63j/image/upload/v1711548687/r5idhkhxjec8raa2m0rp.png"
-            style={{
-              position: 'relative',
-              marginTop: 40,
-              marginBottom: 40,
-            }}
             width="80"
           />
           <Hr className="mt-16" />
