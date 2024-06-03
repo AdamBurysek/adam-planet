@@ -3,7 +3,7 @@ export const myMusic = [
     name: 'deadmau5 - Avaritia (Adam Planet Bootleg)',
     image:
       '/music-section_img/deadmau5Avaritia(AdamPlanetBootleg)ArtworkBig.jpg',
-    link: 'https://on.soundcloud.com/6KwNh',
+    link: 'https://adamplanet.bandcamp.com/track/deadmau5-avaritia-adam-planet-bootleg',
     hover: 'listen',
   },
   {
