@@ -18,6 +18,7 @@
   margin-bottom: 100px;
   padding-top: 10px;
   font-size: clamp(0.7rem, 0.071rem + 3.143vw, 1.25rem);
+  /* Viewport: 320px, Padding: 0px -> Viewport: 975px, Padding: 595px */
   padding-left: clamp(0rem, -18.168rem + 90.84vw, 37.188rem);
 }
 
