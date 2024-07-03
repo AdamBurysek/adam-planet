@@ -1,10 +1,5 @@
 export const links = [
   {
-    name: 'facebook',
-    image: 'footer-icons.svg#facebook_icon',
-    target: 'https://www.facebook.com/AdamPlanetMusic/',
-  },
-  {
     name: 'instagram',
     image: 'footer-icons.svg#instagram_icon',
     target: 'https://www.instagram.com/adamplanetman/',
