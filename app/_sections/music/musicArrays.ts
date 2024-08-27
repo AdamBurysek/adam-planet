@@ -1,5 +1,11 @@
 export const myMusic = [
   {
+    name: 'Jauz - Higher For Your Love (Adam Planet Remix)',
+    image: '/music-section_img/jauz_higher-for-your-love.jpg',
+    link: 'https://on.soundcloud.com/hmrgfTYWuiibjwmcA',
+    hover: 'listen',
+  },
+  {
     name: 'deadmau5 - Avaritia (Adam Planet Bootleg)',
     image:
       '/music-section_img/deadmau5Avaritia(AdamPlanetBootleg)ArtworkBig.jpg',
